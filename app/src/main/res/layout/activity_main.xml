@@ -10,9 +10,14 @@
     <TextView
         android:id="@+id/helloMalikTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@color/colorAccent"
-        android:text="Hello Malik"
-        android:textColor="@android:color/background_light" />
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@android:color/holo_green_light"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="My Great App"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp" />
 
 </RelativeLayout>
