@@ -13,8 +13,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:text="Change Image"
-        android:onClick="changeImage"/>
+        android:onClick="changeImage"
+        android:text="New Image" />
 
     <ImageView
         android:id="@+id/imageView"
